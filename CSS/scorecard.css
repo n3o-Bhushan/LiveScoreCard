@@ -1,0 +1,52 @@
+.scorecard{
+	margin: 100px;
+	border-style: solid;
+	border-color: 336DC3;
+    
+    
+
+} 
+.head{
+	background-color: 336DC3;
+    background-blend-mode: color-dodge;
+	font-size: 30;
+    font-family: Courier New;
+	text-align: center;
+	color: white;
+    
+
+}
+
+.submit {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center
+}
+.cancel{
+	width: 25%;
+    background-color: #EB0020;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center
+}
+
+.inner{
+    padding: 50px;
+
+}
+
+.divider{
+    width:20%;
+    height:auto;
+    display:inline-block;
+}
