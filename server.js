@@ -25,8 +25,8 @@ function handler (req, res) {
 wss.on('connection', function (socket) {
 
   setInterval(function () {
-  	var current=Math.floor(Math.random()*7);
-  	var comment=["Good Shot", "Missed to field", "Classic Text Book Shot", "Hat trick", " Classical Sot", "Unbelievable miss", "Very good catch by mid-on player"];
+  	var current=Math.floor(Math.random()*6);
+  	var comment=["Good Shot", "Text Book Shot", "Hat trick", " Excellent Shot", "Unbelievable miss", "Very good catch by mid-on player"];
 	var currentMessage;
 	if(current===5){
 		currentMessage="<br>Commentator: "+comment[Math.floor(Math.random()*2)];
